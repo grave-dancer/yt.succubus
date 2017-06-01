@@ -1,8 +1,14 @@
 youTube.succubus is a botnet for YouTube that can be used to robotically get millions of likes, dislikes, subscriptions, and comments, in minutes with no effort, while you leave your computer unattended.
 
-This botnet also allows you to earn Bitcoin through users who wish to purchase credits.
+Try the demo here: http://yt-succubus.com
+
+This demo is not malware, nor is it useful for launching any cyber attacks. Disruptive spam and dislike attacks are intentionally disabled in the demo to prevent misuse. Botnet is used in a sense that this is a network of bots and the intention of this software is not to be used for distribution of malware or spam.
+
+The purpose of this botnet is for security research, to demonstrate the ease of which YouTube is vulnerable to botting.
 
 ![Alt text](https://s10.postimg.org/42xqa2qyx/screenshot1.png "Client")
+
+Screenshot: The client software running.
 
 ~~~
 
