@@ -76,6 +76,10 @@ then I am literally not responsible. They can't read. Sue the failing American E
 
 FAQ:
 
+Q: How do I get this to run?
+
+A: The Chromium libraries are too large to include in the GitHub repository. You need to download them here: http://swan-sec.com/projects/yt-succubus
+
 Q: So how do I get people to join my botnet?
 
 A: The client is included. You just host a website and allow people to download the client. Be honest with what it is.
