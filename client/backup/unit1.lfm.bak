@@ -1,0 +1,140 @@
+object Form1: TForm1
+  Left = 256
+  Height = 440
+  Top = 128
+  Width = 724
+  Caption = 'Youtube.Succubus ViewMiner (Win32) v1.00'
+  ClientHeight = 440
+  ClientWidth = 724
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object edtURL: TEditButton
+    Left = 0
+    Height = 23
+    Top = 0
+    Width = 724
+    Align = alTop
+    ButtonCaption = 'Go'
+    ButtonWidth = 23
+    MaxLength = 0
+    NumGlyphs = 1
+    OnButtonClick = edtURLButtonClick
+    PasswordChar = #0
+    TabOrder = 0
+  end
+  object Chromium: TChromium
+    Left = -1
+    Height = 337
+    Top = 23
+    Width = 725
+    Align = alCustom
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 1
+    OnAddressChange = ChromiumAddressChange
+    DefaultUrl = 'about:blank'
+  end
+  object Label1: TLabel
+    Left = 11
+    Height = 15
+    Top = 400
+    Width = 49
+    Caption = 'Credits: 0'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 11
+    Height = 15
+    Top = 368
+    Width = 134
+    Caption = 'Account: TestificateVEVO'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 168
+    Height = 15
+    Top = 368
+    Width = 83
+    Caption = 'Subscriptions: 0'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 168
+    Height = 15
+    Top = 384
+    Width = 38
+    Caption = 'Likes: 0'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 168
+    Height = 15
+    Top = 400
+    Width = 51
+    Caption = 'Dislikes: 0'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 11
+    Height = 15
+    Top = 384
+    Width = 42
+    Caption = 'Views: 0'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 168
+    Height = 15
+    Top = 416
+    Width = 71
+    Caption = 'Comments: 0'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 11
+    Height = 15
+    Top = 416
+    Width = 47
+    Caption = 'Health: 0'
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 288
+    Height = 16
+    Top = 384
+    Width = 208
+    Caption = 'Skip Video (No Credits)'
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 288
+    Height = 16
+    Top = 368
+    Width = 208
+    Caption = 'Start/Stop'
+    TabOrder = 3
+  end
+  object BitBtn3: TBitBtn
+    Left = 504
+    Height = 16
+    Top = 368
+    Width = 208
+    Caption = 'Help!'
+    TabOrder = 4
+  end
+  object BitBtn4: TBitBtn
+    Left = 504
+    Height = 16
+    Top = 384
+    Width = 208
+    Caption = 'About...'
+    TabOrder = 5
+  end
+  object StaticText1: TStaticText
+    Left = 287
+    Height = 32
+    Top = 400
+    Width = 425
+    Caption = 'Visit http://swan-sec.com/youtube_succubus to register.'#13#10'For questions or concerns reach me with XMPP chat at simdara@0n1ine.cc'
+    TabOrder = 6
+  end
+end
